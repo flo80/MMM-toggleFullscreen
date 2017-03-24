@@ -1,0 +1,28 @@
+{
+  "name": "MMM-fullscreenToggle",
+  "version": "1.0.0",
+  "description": "Allow to toggle fullscreen mode in browser",
+  "main": "MMM-fullscreenToggle.js",
+  "author": "Flo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flo80/MMM-toggleFullscreen.git"
+  },
+  "homepage": "https://github.com/flo80/MMM-toggleFullscreen#readme",
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "fullscreen UI"
+  ],
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-eslint": "latest",
+    "grunt-jsonlint": "latest",
+    "grunt-markdownlint": "^1.0.13",
+    "grunt-stylelint": "latest",
+    "grunt-yamllint": "latest",
+    "stylelint-config-standard": "latest",
+    "time-grunt": "latest"
+  }
+}
