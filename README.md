@@ -5,8 +5,8 @@ This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror
 
 
 ## Using the module
-
-To use this module, add the following configuration block to the modules array in the `config/config.js` file:
+To use this module, clone it into your MagicMirror² modules `git clone https://github.com/flo80/MMM-toggleFullscreen.git`.
+Then add the following configuration block to the modules array in the `config/config.js` file:
 ```js
 var config = {
     modules: [
@@ -21,6 +21,7 @@ var config = {
 }
 ```
 
+
 ## Configuration options
 
 | Option    | Default  | Description
@@ -30,4 +31,5 @@ var config = {
 
 ## Notes
 
-The `useBody` can conflict with other modules which are touch enabled. 
+* The `useBody` can conflict with other modules which are touch enabled. 
+* This module uses the [screenfull script by Sindre Sorhus](https://github.com/sindresorhus/screenfull.js)
